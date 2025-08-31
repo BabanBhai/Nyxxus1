@@ -1,13 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
+  "devCommand": "npm run dev", 
   "installCommand": "npm install",
   "framework": "nextjs",
-  "regions": ["iad1", "sfo1", "lhr1"],
   "functions": {
     "src/app/api/**/*.ts": {
       "maxDuration": 10
     }
-  },
-  "crons": []
+  }
 }
