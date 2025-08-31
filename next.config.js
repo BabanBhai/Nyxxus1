@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
     serverComponentsExternalPackages: ["@prisma/client", "bcryptjs"]
   },
   images: {
@@ -12,6 +11,5 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: false
   }
-}
 
 module.exports = nextConfig
